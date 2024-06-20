@@ -3,10 +3,10 @@ package lib
 import "fmt"
 
 type WindowsAdapter struct {
-	windowMachine *Windows
+	WindowMachine *Windows
 }
 
 func (w *WindowsAdapter) InsertIntoLightningPort() {
 	fmt.Println("Adapter converts Lightning signal to USB.")
-	w.windowMachine.insertIntoUSBPort()
+	w.WindowMachine.insertIntoUSBPort()
 }

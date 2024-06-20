@@ -1,15 +1,17 @@
 package main
 
+import "go-design-patterns/creating_pattern/Structural/adapter/lib"
+
 func main() {
 
-	client := &Client{}
-	mac := &Mac{}
+	client := &lib.Client{}
+	mac := &lib.Mac{}
 
 	client.InsertLightningConnectorIntoComputer(mac)
 
-	windowsMachine := &Windows{}
-	windowsMachineAdapter := &WindowsAdapter{
-		windowMachine: windowsMachine,
+	windowsMachine := &lib.Windows{}
+	windowsMachineAdapter := &lib.WindowsAdapter{
+		WindowMachine: windowsMachine,
 	}
 
 	client.InsertLightningConnectorIntoComputer(windowsMachineAdapter)
