@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"test/ab_factor/lib"
+	"go-design-patterns/creating_pattern/Creational/abstract_factory/lib"
 )
 
 func main() {

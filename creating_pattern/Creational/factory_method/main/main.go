@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-design-patterns/creating_pattern/factory_method/lib"
+	"go-design-patterns/creating_pattern/Creational/factory_method/lib"
 )
 
 func main() {

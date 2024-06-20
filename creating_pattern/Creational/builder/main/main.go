@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"test/builder/lib"
+	"go-design-patterns/creating_pattern/Creational/builder/lib"
 )
 
 func main() {
